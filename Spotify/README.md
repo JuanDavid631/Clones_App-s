@@ -2,12 +2,12 @@
 
 ¡Hola! Soy Juan David Montoya 👨‍💻, y este es mi espacio dedicado a todo lo relacionado con la programación y nuevas tecnologias. Como apasionado Ingeiero de Sistemas y Coputacion me gusta seguir las nuevas tecnologías y apoyarme de creadores de contenido 🎬📽️
 
-## Tecnologías utilizadas 🌟
+## Funcionalidades 🌟
 
-- 📚 **React**: Una biblioteca de JavaScript para construir interfaces de usuario.
-- 📚 **Svelte**: Un marco de trabajo de JavaScript para construir aplicaciones web.
-- 📚 **Astro**: Un nuevo marco de trabajo de JavaScript para crear aplicaciones web utilizando componentes.
-- 📚 **Tailwind CSS**: Un marco de trabajo de CSS utilitario de bajo nivel para construir rápidamente interfaces de usuario personalizadas.
+- **Reproductor de música**: Permite reproducir, pausar y avanzar canciones.
+- **Explorador de géneros**: Permite navegar y descubrir música por género.
+- **Búsqueda de canciones**: Permite buscar canciones por título, artista o álbum.
+
 
 ## Objetivo 🎯
 
