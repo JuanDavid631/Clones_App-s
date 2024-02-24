@@ -13,3 +13,87 @@ html {
 body {
   font-family: "Rubik";
 }
+
+.container {
+  display: grid;
+  grid-template-columns: 30rem 1fr;
+  grid-template-rows: min-content 1fr min-content;
+  margin-bottom: 8rem;
+}
+
+/* ********************************** */
+/*               TOPBAR               */
+/* ********************************** */
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #101010;
+  position: fixed;
+  z-index: 30;
+  top: 0;
+  right: 0;
+  width: calc(100% - 30rem);
+}
+
+.container_arrows {
+  display: flex;
+  gap: 3rem;
+}
+
+.container_arrows_left,
+.container_arrows_right {
+  background-color: #0a0a0a;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container_arrows_left i,
+.container_arrows_right i {
+  color: #fff;
+  font-size: 1.4rem;
+}
+
+.buttons_user {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.btn_register {
+  color: #a7a7a7;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 1.6rem;
+}
+
+.btn_register:hover {
+  color: #fff;
+  transform: scale(1.04);
+}
+
+.btn_login {
+  text-decoration: none;
+}
+
+.btn_full {
+	font-size: 1.6rem;
+	color: #000;
+	padding: 1.5rem 2rem;
+	border-radius: 2rem;
+	font-weight: 700;
+	background-color: #fff;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+
+.btn_full:hover {
+	transform: scale(1.04);
+}
