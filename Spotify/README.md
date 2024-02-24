@@ -1,4 +1,4 @@
-# 🎵 Clon de Spotify con React, Svelte, Astro y Tailwind CSS 🎧
+# 🎵 Clon de Spotify con HTML, CSS y JavaScript 🎧
 
 ¡Hola! Soy Juan David Montoya 👨‍💻, y este es mi espacio dedicado a todo lo relacionado con la programación y nuevas tecnologias. Como apasionado Ingeiero de Sistemas y Coputacion me gusta seguir las nuevas tecnologías y apoyarme de creadores de contenido 🎬📽️
 
@@ -11,6 +11,6 @@
 
 ## Objetivo 🎯
 
-Este proyecto es un clon de la interfaz de usuario de Spotify, desarrollado utilizando varias tecnologías modernas, incluyendo React, Svelte, Astro y Tailwind CSS.
+Este proyecto es un clon de la interfaz de usuario de Spotify, desarrollado utilizando únicamente HTML, CSS y JavaScript.
 
 ¡Gracias por visitar! 👋
