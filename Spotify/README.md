@@ -4,10 +4,8 @@
 
 ## Funcionalidades 🌟
 
-- **Reproductor de música**: Permite reproducir, pausar y avanzar canciones.
-- **Explorador de géneros**: Permite navegar y descubrir música por género.
-- **Búsqueda de canciones**: Permite buscar canciones por título, artista o álbum.
-
+- **Reproductor de música**: Vista de Spotify Web
+- **Interacciones**: Boton Play cuando el cursor pasa por algun playlist
 
 ## Objetivo 🎯
 
