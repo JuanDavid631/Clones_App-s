@@ -7,3 +7,31 @@
 body {
   background-color: #202124;
 }
+
+header {
+  display: flex;
+  justify-content: end;
+  padding: 0 12px;
+  height: 60px;
+}
+
+header .options {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+header .options a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-family: Arial, sans-serif;
+  align-items: center;
+  gap: 12px;
+}
+
+.dots_logo {
+  display: inline-block;
+  background-image: url(assets/dots-logo.svg);
+  width: 24px;
+  height: 24px;
+}
