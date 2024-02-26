@@ -10,10 +10,12 @@ Este es un proyecto simple de temporizador de año nuevo utilizando HTML, CSS y 
 
 ## Demo
 
-¡Puedes ver una demostración en vivo [aqui](#https://juandavid631.github.io/Clones_App-s/Temporizador/index.html)!
+¡Puedes ver una demostración en vivo [aqui](https://juandavid631.github.io/Clones_App-s/Temporizador/index.html)!
 
 ## Uso
 
 1. Clona este repositorio en tu máquina local.
 2. Abre el archivo `index.html` en tu navegador web.
 3. ¡Disfruta del conteo regresivo hasta el próximo año nuevo!
+
+¡Gracias por visitar! 👋
