@@ -2,16 +2,18 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Arial, sans-serif;
 }
 
 body {
   background-color: #202124;
+  height: 100vh;
 }
 
 header {
   display: flex;
   justify-content: end;
-  padding: 0 12px;
+  padding: 0 18px;
   height: 60px;
 }
 
@@ -24,14 +26,41 @@ header .options {
 header .options a {
   text-decoration: none;
   color: whitesmoke;
-  font-family: Arial, sans-serif;
-  align-items: center;
-  gap: 12px;
 }
 
-.dots_logo {
+header .options a img {
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+}
+
+.dots-logo {
   display: inline-block;
   background-image: url(assets/dots-logo.svg);
+  background-repeat: no-repeat;
+  background-position: center;
   width: 24px;
   height: 24px;
+}
+
+main {
+  height: calc(100% - 60px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+main .container figure {
+  height: 92px;
+}
+
+main .container figure img {
+  height: 100%;
 }
