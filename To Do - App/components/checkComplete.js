@@ -1,3 +1,4 @@
+// Estilos al CSS para el checkbox
 export const checkComplete = (id) => {
   const i = document.createElement("i");
   i.classList.add("far", "fa-check-square", "icon");
@@ -5,6 +6,7 @@ export const checkComplete = (id) => {
   return i;
 };
 
+// Evalua si la tarea fue completada o no para cambiar el estado
 const completeTask = (event, id) => {
   const element = event.target;
   element.classList.toggle("fas");
