@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif, "Dosis";
+  font-size: 16px;
+  background-color: #e8dedced;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mainCard {
+  width: 80%;
+  padding: 25px;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  margin-bottom: 15px;
+  justify-content: space-around;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 1%;
+}
+
+.inputForm {
+  border: none;
+  padding: 10px;
+  outline: none;
+  width: 35%;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.inputDate {
+  border: none;
+  outline: none;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  font-family: "Times New Roman", Times, serif;
+}
