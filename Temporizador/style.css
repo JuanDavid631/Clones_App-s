@@ -1,0 +1,40 @@
+@import url('https://fonts.cdnfonts.com/css/digital-numbers');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.8s;
+}
+
+body {
+  display: grid;
+  place-content: center;
+  height: 100vh;
+  background-color: slategray;
+}
+
+.countdown {
+  padding: 18px;
+  border: solid 10px rgb(50, 50, 50);
+  border-radius: 35px;
+  font-family: 'Digital Numbers', sans-serif;
+  font-size: 50px;
+  color: rgb(255, 125, 125);
+  text-shadow: 0 0 10px red;
+  background-color: rgb(0, 0, 0);
+  box-shadow: 5px 5px 0px 0px rgba(0, 0, 0, 5);
+}
+ .countdown span {
+  content: '88';
+  position: absolute;
+  left: 0;
+  color: rgba(255, 255, 255, 0.1);
+  text-shadow: none;
+ }
+
+ .countdown span::after {
+  content: '88';
+  position: absolute;
+  
+ }
