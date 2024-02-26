@@ -1,3 +1,6 @@
+import { readTasks } from "./readTask.js";
+
+// Elimina las tareas del Main
 const deleteTask = (id) => {
   const li = document.querySelector("[data-list");
   const tasks = JSON.parse(localStorage.getItem("tasks"));
@@ -27,6 +30,7 @@ const deleteTask = (id) => {
   });
 };
 
+// Elimina la tarea que el usuario selecciono
 const deleteIcon = (id) => {
   const i = document.createElement("i");
   i.classList.add("fas", "fa-trash-alt", "trashIcon", "icon");
