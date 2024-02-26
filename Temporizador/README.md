@@ -10,7 +10,7 @@ Este es un proyecto simple de temporizador de año nuevo utilizando HTML, CSS y 
 
 ## Demo
 
-¡Puedes ver una demostración en vivo [(https://juandavid631.github.io/Clones_App-s/Temporizador/index.html)](#)!
+¡Puedes ver una demostración en vivo [aqui](#https://juandavid631.github.io/Clones_App-s/Temporizador/index.html)!
 
 ## Uso
 
