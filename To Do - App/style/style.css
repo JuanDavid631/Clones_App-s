@@ -3,7 +3,6 @@
   padding: 0;
   font-family: sans-serif, "Dosis";
   font-size: 16px;
-  background-color: #e8dedced;
 }
 
 main {
@@ -48,4 +47,17 @@ form {
   align-items: center;
   align-content: center;
   font-family: "Times New Roman", Times, serif;
+}
+
+.btnCreate {
+  padding: 15px 15px;
+  background-color: #3cb371;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btnCreate:hover {
+  background-color: #2e8b57;
 }
