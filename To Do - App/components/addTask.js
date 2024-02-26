@@ -40,9 +40,36 @@ export const addTask = (evento) => {
   const taskList = JSON.parse(localStorage.getItem("tasks")); // [];
   taskList.push(taskObject);
   localStorage.setItem("tasks", JSON.stringify(taskList));
+
+  readTasks();
 };
 
 // Crear tarea
-export const createTask = ({value, dateFormat, id}) => {
-  
-}
+export const createTask = ({ value, dateFormat, id }) => {
+  const task = document.createElement("li");
+  task.classList.add("card");
+  const taskContent = document.createElement("div");
+  const iconContent = document.createElement("div");
+  const check = checkComplete(id);
+
+  if (complete) {
+    check.classList.toggle("fas");
+    check.classList.toggle("completeIcon");
+    check.classList.toggle("far");
+  }
+
+  const titleTask = document.createElement("span");
+  const dateElement = document.createElement("span");
+
+  dateElement.innerHTML = dateFormat;
+  titleTask.classList.add("task");
+  titleTask.innerHTML = value;
+
+  taskContent.appendChild(titleTask);
+
+  iconContent.classList.add("icons");
+  iconContent.appendChild(check);
+  iconContent.appendChild(deleteIcon(id));
+
+  return task;
+};
