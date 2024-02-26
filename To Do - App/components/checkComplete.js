@@ -21,3 +21,5 @@ const completeTask = (event, id) => {
 
   localStorage.setItem("tasks", JSON.stringify(tasks));
 };
+
+export default checkComplete;
