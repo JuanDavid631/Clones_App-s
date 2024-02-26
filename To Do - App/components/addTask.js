@@ -1,6 +1,6 @@
-import { readTasks } from "./readTask.js";
+import { readTasks } from "./readTasks.js";
 import { checkComplete } from "./checkComplete.js";
-import { deleteIcon } from "./deleteIcon.js";
+import deleteIcon from "./deleteIcon.js";
 
 // Agregacion de tareas a la aplicacion
 export const addTask = (evento) => {
@@ -14,7 +14,7 @@ export const addTask = (evento) => {
 
   const actualDate = moment(new Date()).format();
   const momentDate = moment(date).format();
-  const dateFormat = momento(date).format("DD/MM/YYYY");
+  const dateFormat = moment(date).format("DD/MM/YYYY");
 
   if (value === "") {
     Swal.fire("Ooops!", "Debes ingresar un texto", "warning");
@@ -41,7 +41,7 @@ export const addTask = (evento) => {
   };
 
   list.innerHTML = "";
-  const taskList = JSON.parse(localStorage.getItem("tasks")); // [];
+  const taskList = JSON.parse(localStorage.getItem("tasks")) || [];
   taskList.push(taskObject);
   localStorage.setItem("tasks", JSON.stringify(taskList));
 
@@ -49,7 +49,7 @@ export const addTask = (evento) => {
 };
 
 // Crear tarea con ciertos parametros
-export const createTask = ({ value, dateFormat, id }) => {
+export const createTask = ({ value, dateFormat, complete, id }) => {
   const task = document.createElement("li");
   task.classList.add("card");
   const taskContent = document.createElement("div");
@@ -74,6 +74,9 @@ export const createTask = ({ value, dateFormat, id }) => {
   iconContent.classList.add("icons");
   iconContent.appendChild(check);
   iconContent.appendChild(deleteIcon(id));
+
+  task.appendChild(taskContent);
+  task.appendChild(iconContent);
 
   return task;
 };

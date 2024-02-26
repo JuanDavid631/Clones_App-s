@@ -1,5 +1,5 @@
 import { createTask } from "./addTask.js";
-import { dateElement } from "./dateElement.js";
+import dateElement from "./dateElement.js";
 import { uniqueDates, orderDates } from "../services/date.js";
 
 // Agregacion de elementos al panal y ordenamiento por fecha

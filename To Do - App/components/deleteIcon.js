@@ -1,4 +1,4 @@
-import { readTasks } from "./readTask.js";
+import { readTasks } from "./readTasks.js";
 
 // Elimina las tareas del Main
 const deleteTask = (id) => {
