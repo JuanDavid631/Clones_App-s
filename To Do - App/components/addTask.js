@@ -1,4 +1,4 @@
-import { readTasks } from "./readTask";
+import { readTasks } from "./readTask.js";
 import { checkComplete } from "./checkComplete.js";
 import { deleteIcon } from "./deleteIcon.js";
 
