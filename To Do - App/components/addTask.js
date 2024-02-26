@@ -1,4 +1,8 @@
-// Leer tareas
+import { readTasks } from "./readTask";
+import { checkComplete } from "./checkComplete.js";
+import { deleteIcon } from "./deleteIcon.js";
+
+// Agregacion de tareas a la aplicacion
 export const addTask = (evento) => {
   evento.preventDefault();
   const list = document.querySelector("[data-list]");
@@ -44,7 +48,7 @@ export const addTask = (evento) => {
   readTasks();
 };
 
-// Crear tarea
+// Crear tarea con ciertos parametros
 export const createTask = ({ value, dateFormat, id }) => {
   const task = document.createElement("li");
   task.classList.add("card");
