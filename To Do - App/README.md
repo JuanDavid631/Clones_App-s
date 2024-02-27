@@ -15,4 +15,7 @@ Esta es una simple aplicación To Do desarrollada utilizando HTML, CSS y JavaScr
 - **JavaScript:** Utilizado para la lógica de la aplicación, incluyendo la manipulación del DOM y la gestión de eventos.
 
 ## Demo
+
 ¡Puedes ver una demostración en vivo [aqui](https://juandavid631.github.io/Clones_App-s/To%20Do%20-%20App/index.html)!
+
+¡Gracias por visitar! 👋
